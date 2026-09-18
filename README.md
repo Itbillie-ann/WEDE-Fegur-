@@ -1,11 +1,11 @@
-# Fegurð Salon — Website
+# Fegurð Salon - Website
 
-**WEDE5020 Web Development (Introduction) — Portfolio of Evidence**
+**WEDE5020 Web Development (Introduction) - Portfolio of Evidence**
 
 ## Student Information
 - **Name:** Alicia B Bukitu
 - **Student Number:** ST10538583
-- **Module:** Web Development (Introduction) — WEDE5020
+- **Module:** Web Development (Introduction) - WEDE5020
 - **Lecturer:** Lwazi Maqoqa
 
 ---
@@ -19,7 +19,7 @@ appointment online.
 
 This project delivers a five-page website so that clients can browse
 services and pricing, meet the team, view past work, and send a booking
-enquiry — reducing telephone dependency and giving the salon a stronger
+enquiry - reducing telephone dependency and giving the salon a stronger
 first impression online.
 
 ---
@@ -83,13 +83,13 @@ Home
 └─ Contact / Book Now
 ```
 
-- **Home** (`index.html`) — hero banner, brief introduction, standout
+- **Home** (`index.html`) - hero banner, brief introduction, standout
   services, studio details
-- **Services & Pricing** (`services.html`) — categorised list (hair, nails,
+- **Services & Pricing** (`services.html`) - categorised list (hair, nails,
   skincare) with prices
-- **Our Team** (`team.html`) — stylist and therapist profiles
-- **Gallery** (`gallery.html`) — styling and treatment results
-- **Contact / Book Now** (`contact.html`) — enquiry form, both addresses,
+- **Our Team** (`team.html`) - stylist and therapist profiles
+- **Gallery** (`gallery.html`) - styling and treatment results
+- **Contact / Book Now** (`contact.html`) - enquiry form, both addresses,
   map placeholder and opening hours
 
 ---
@@ -107,7 +107,7 @@ fegurd-salon/
 ├─ js/
 │   └─ main.js
 ├─ images/
-│   └─ products/        (gallery and hero imagery, multiple sizes)
+│   └─ products/        
 ├─ content-research/
 │   ├─ images/
 │   ├─ documents/
@@ -117,14 +117,14 @@ fegurd-salon/
 
 ---
 
-## Part 1 Details — Building the Foundation
+## Part 1 Details - Building the Foundation
 Part 1 covered project initiation and planning: the Website Project
 Proposal (two organisations proposed, Fegurð Salon approved), content
 research and sourcing, the sitemap, the file and folder structure, and the
 initial HTML foundation for all five pages with working navigation and
 explanatory code comments.
 
-## Part 2 Details — Designing the Visuals
+## Part 2 Details - Designing the Visuals
 Part 2 applies CSS styling and responsive design to the Part 1 foundation.
 The visual identity established in Part 1 has been retained and refined
 rather than replaced.
@@ -151,8 +151,8 @@ Google Fonts. A modular type scale is defined in `rem` units, alongside
 capped at `65ch` to keep line length comfortable to read.
 
 ### Layout structure
-Flexbox is used for one-dimensional rows — the header, the navigation list
-and button groups. CSS Grid is used for two-dimensional layouts — the card
+Flexbox is used for one-dimensional rows - the header, the navigation list
+and button groups. CSS Grid is used for two-dimensional layouts - the card
 grids, the gallery, the two-column splits and the footer. Properties used
 include `display`, `flex-direction`, `justify-content`, `align-items`,
 `grid-template-columns` and `gap`.
