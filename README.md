@@ -244,8 +244,8 @@ colour rules were re-scoped so cards retain dark text wherever they appear.
 
 | # | Feedback received | Change made |
 |---|---|---|
-| 1.1 | *(feedback point)* | *(what was changed in response)* |
-| 1.2 | *(feedback point)* | *(what was changed in response)* |
+| 1.1 | *Good work* | *No changes were made in the first overall feedback* |
+| 1.2 | *50 / 50 - 100 %* | *No changes were made in the first overall feedback* |
 
 ### Part 1 — Building the Foundation
 | # | Change | Detail |
