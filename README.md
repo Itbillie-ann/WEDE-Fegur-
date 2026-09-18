@@ -6,7 +6,7 @@
 - **Name:** Alicia B Bukitu
 - **Student Number:** ST10538583
 - **Module:** Web Development (Introduction) — WEDE5020
-- **Lecturer:** Wellcome Zaranyika
+- **Lecturer:** Lwazi Maqoqa
 
 ---
 
@@ -289,8 +289,8 @@ W3C. 2018. *Web Content Accessibility Guidelines (WCAG) 2.1*. [Online].
 Available at: https://www.w3.org/TR/WCAG21/ [Accessed 18 September 2026].
 
 > **Note on imagery:** the gallery and hero images are original graphics
-> created for this project, so no third-party image licences apply at
+> created for this project using AI, so no third-party image licences apply at
 > present. If they are replaced with stock photography, each photograph
-> must be credited here with the photographer's name, source and licence
+> must be credited here with the photographer's name (Alicia B Bukitu), source and licence
 > type, as set out in the Legal Asset Sourcing Plan in the Website Project
 > Proposal.
