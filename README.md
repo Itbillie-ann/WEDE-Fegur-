@@ -193,19 +193,13 @@ colour rules were re-scoped so cards retain dark text wherever they appear.
 ---
 
 ## Screenshot Evidence
-<img width="959" height="479" alt="Indes" src="https://github.com/user-attachments/assets/0c18020c-9773-4c87-99df-d94d5f846359" />
-<img width="954" height="469" alt="Services" src="https://github.com/user-attachments/assets/34a3e1bc-3f80-49fa-9faf-e5b1d25c4460" />
-<img width="956" height="472" alt="Team" src="https://github.com/user-attachments/assets/f3148d78-79ad-4a13-8ed6-1359440fc824" />
-<img width="956" height="471" alt="Gallery" src="https://github.com/user-attachments/assets/67023450-ee5f-4f47-8e80-bb9b0b51f01c" />
-<img width="958" height="473" alt="Contact" src="https://github.com/user-attachments/assets/9b38c80e-4dda-4f5e-b369-e17234a68b9f" />
-
 
 ### Desktop (1440px)
-![Home page on desktop](docs/screenshots/index-desktop.png)
-![Services page on desktop](docs/screenshots/services-desktop.png)
-![Team page on desktop](docs/screenshots/team-desktop.png)
-![Gallery page on desktop](docs/screenshots/gallery-desktop.png)
-![Contact page on desktop](docs/screenshots/contact-desktop.png)
+![Home page on desktop]<img width="959" height="479" alt="Indes" src="https://github.com/user-attachments/assets/0c18020c-9773-4c87-99df-d94d5f846359" />
+![Services page on desktop]<img width="954" height="469" alt="Services" src="https://github.com/user-attachments/assets/34a3e1bc-3f80-49fa-9faf-e5b1d25c4460" />
+![Team page on desktop]<img width="956" height="472" alt="Team" src="https://github.com/user-attachments/assets/f3148d78-79ad-4a13-8ed6-1359440fc824" />
+![Gallery page on desktop]<img width="956" height="471" alt="Gallery" src="https://github.com/user-attachments/assets/67023450-ee5f-4f47-8e80-bb9b0b51f01c" />
+![Contact page on desktop]<img width="958" height="473" alt="Contact" src="https://github.com/user-attachments/assets/9b38c80e-4dda-4f5e-b369-e17234a68b9f" />
 
 ### Tablet (820px)
 ![Home page on tablet](docs/screenshots/index-tablet.png)
