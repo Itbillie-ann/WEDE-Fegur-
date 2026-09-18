@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services &amp; Pricing — Fegur&eth; Salon</title>
+  <meta name="description" content="Full service list and pricing for hair, nails and skincare at Fegurd Salon.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <!-- External stylesheet, shared by all five pages -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ==================== Header / Navigation ====================
+       Shared across all five pages. The hidden checkbox drives the
+       mobile hamburger menu via CSS only (no JavaScript required);
+       aria-current marks the page the visitor is currently on. -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="index.html" class="logo">Fegur&eth; Salon</a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul class="site-nav__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html" aria-current="page">Services &amp; Pricing</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact / Book Now</a></li>
+        </ul>
+      </nav>
+
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu"><span></span></label>
+    </div>
+  </header>
+
+  <main>
+    <section class="section--tight container">
+      <p class="eyebrow">Categorised list, as planned in the sitemap</p>
+      <h1>Services &amp; Pricing</h1>
+      <p class="lead">All prices are per session. Ask our team about combination packages when you book.</p>
+    </section>
+
+    <section class="section container">
+
+      <!-- ==================== Hair ==================== -->
+      <div class="service-category">
+        <h2>Hair</h2>
+        <ul>
+          <li class="service-item"><span class="service-item__name">Cut &amp; Finish</span><span class="service-item__price">R280</span></li>
+          <li class="service-item"><span class="service-item__name">Full Colour</span><span class="service-item__price">R650</span></li>
+          <li class="service-item"><span class="service-item__name">Highlights / Balayage</span><span class="service-item__price">R850</span></li>
+          <li class="service-item"><span class="service-item__name">Blow-Out &amp; Styling</span><span class="service-item__price">R220</span></li>
+        </ul>
+      </div>
+
+      <!-- ==================== Nails ==================== -->
+      <div class="service-category">
+        <h2>Nails</h2>
+        <ul>
+          <li class="service-item"><span class="service-item__name">Classic Manicure</span><span class="service-item__price">R180</span></li>
+          <li class="service-item"><span class="service-item__name">Gel Manicure</span><span class="service-item__price">R280</span></li>
+          <li class="service-item"><span class="service-item__name">Classic Pedicure</span><span class="service-item__price">R220</span></li>
+          <li class="service-item"><span class="service-item__name">Gel Pedicure</span><span class="service-item__price">R320</span></li>
+        </ul>
+      </div>
+
+      <!-- ==================== Skincare ==================== -->
+      <div class="service-category">
+        <h2>Skincare</h2>
+        <ul>
+          <li class="service-item"><span class="service-item__name">Express Facial</span><span class="service-item__price">R350</span></li>
+          <li class="service-item"><span class="service-item__name">Deep Cleanse Facial</span><span class="service-item__price">R480</span></li>
+          <li class="service-item"><span class="service-item__name">Eyebrow Shape &amp; Tint</span><span class="service-item__price">R150</span></li>
+        </ul>
+      </div>
+
+    </section>
+
+    <section class="section section--sage">
+      <div class="container text-center">
+        <h2>Ready to book?</h2>
+        <p>Send us your preferred date, studio and service, and we will confirm by email.</p>
+        <div class="actions actions--center">
+          <a href="contact.html" class="btn btn--light">Contact / Book Now</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== Footer ====================
+       Repeated across all pages: brand blurb, quick links and
+       contact details, laid out with CSS Grid. -->
+  <footer class="site-footer">
+    <div class="container">
+      <div>
+        <p class="logo">Fegur&eth; Salon</p>
+        <p>A calm, welcoming space for hair, nails and skincare in Johannesburg.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="services.html">Services &amp; Pricing</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact / Book Now</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>4 Blossom Street, Rosebank</p>
+        <p>hello@fegurdsalon.co.za</p>
+        <p>(011) 555 0198</p>
+      </div>
+    </div>
+    <div class="site-footer__bottom">&copy; <span id="year"></span> Fegur&eth; Salon. All rights reserved.</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
