@@ -195,15 +195,15 @@ colour rules were re-scoped so cards retain dark text wherever they appear.
 ## Screenshot Evidence
 
 ### Desktop (1440px)
-![Home page on desktop]
+**Home page on desktop**
 <img width="959" height="479" alt="Indes" src="https://github.com/user-attachments/assets/0c18020c-9773-4c87-99df-d94d5f846359" />
-![Services page on desktop]
+**Services page on desktop**
 <img width="954" height="469" alt="Services" src="https://github.com/user-attachments/assets/34a3e1bc-3f80-49fa-9faf-e5b1d25c4460" />
-![Team page on desktop]
+**Team page on desktop**
 <img width="956" height="472" alt="Team" src="https://github.com/user-attachments/assets/f3148d78-79ad-4a13-8ed6-1359440fc824" />
-![Gallery page on desktop]
+**Gallery page on desktop**
 <img width="956" height="471" alt="Gallery" src="https://github.com/user-attachments/assets/67023450-ee5f-4f47-8e80-bb9b0b51f01c" />
-![Contact page on desktop]
+**Contact page on desktop**
 <img width="958" height="473" alt="Contact" src="https://github.com/user-attachments/assets/9b38c80e-4dda-4f5e-b369-e17234a68b9f" />
 
 ### Mobile (390px)
@@ -237,11 +237,6 @@ colour rules were re-scoped so cards retain dark text wherever they appear.
 | 2.15 | Fixed a contrast defect found during testing | Card text inside the dark sage band inherited the band's light text colour and was unreadable on the white card background; the colour rules were re-scoped so cards keep dark text. |
 
 ### Part 1 feedback
-> **To complete before submission:** list each point of lecturer feedback
-> received on Part 1 and the specific change made in response. Marks are
-> awarded for how detailed and well-documented these entries are, so each
-> entry should name the feedback point and the corresponding edit.
-
 | # | Feedback received | Change made |
 |---|---|---|
 | 1.1 | *Good work* | *No changes were made in the first overall feedback* |
