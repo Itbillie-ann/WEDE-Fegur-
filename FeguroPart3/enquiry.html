@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service Enquiry — Fegur&eth; Salon</title>
+  <meta name="description" content="Enquire about salon services, pricing and appointment availability at Fegurð Salon in Johannesburg.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="C:\Users\Administrator\Downloads\Feguro-Salon-Part3-Code-Only\fegurd-salon\css\js\styles.css">
+</head>
+<body>
+
+
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="index.html" class="logo">Fegur&eth; Salon</a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul class="site-nav__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services &amp; Pricing</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="enquiry.html" aria-current="page">Service Enquiry</a></li>
+          <li><a href="contact.html">Contact / Book Now</a></li>
+        </ul>
+      </nav>
+
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu"><span></span></label>
+    </div>
+  </header>
+
+  <main>
+    <section class="section--tight container">
+      <p class="eyebrow">Services, pricing &amp; appointment availability</p>
+      <h1>Service Enquiry</h1>
+      <p class="lead">Tell us which service you are interested in and your preferred studio. We will help you confirm pricing and availability.</p>
+    </section>
+
+   
+    <section class="section container">
+      <h2>Tell us what you need</h2>
+      <form class="form" id="enquiry-form" data-form-type="enquiry" novalidate>
+        <div class="form-row">
+          <div class="form-field"><label for="enquiry-name">Full name</label><input type="text" id="enquiry-name" name="name" autocomplete="name" minlength="2" maxlength="80" required></div>
+          <div class="form-field"><label for="enquiry-email">Email address</label><input type="email" id="enquiry-email" name="email" autocomplete="email" required></div>
+        </div>
+        <div class="form-row">
+          <div class="form-field"><label for="enquiry-location">Preferred studio</label><select id="enquiry-location" name="location" required><option value="">Choose a studio</option><option>Rosebank Studio</option><option>Melville Studio</option></select></div>
+          <div class="form-field"><label for="enquiry-service">Service category</label><select id="enquiry-service" name="service" required><option value="">Choose a category</option><option>Hair</option><option>Nails</option><option>Skincare</option><option>Products</option><option>Volunteer or sponsorship</option><option>Other</option></select></div>
+        </div>
+        <div class="form-row">
+          <div class="form-field"><label for="enquiry-date">Preferred date (optional)</label><input type="date" id="enquiry-date" name="date"></div>
+          <div class="form-field"><label for="enquiry-budget">Budget / price question (optional)</label><input type="text" id="enquiry-budget" name="budget" maxlength="120" placeholder="e.g. price for balayage"></div>
+        </div>
+        <div class="form-field"><label for="enquiry-message">Enquiry details</label><textarea id="enquiry-message" name="message" rows="4" minlength="10" maxlength="1500" required placeholder="Tell us what service you need or ask about availability (at least 10 characters)."></textarea></div>
+        <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+        <div class="actions"><button type="submit" class="btn">Prepare enquiry email</button></div>
+      </form>
+    </section>
+  </main>
+
+  
+  <footer class="site-footer">
+    <div class="container">
+      <div>
+        <p class="logo">Fegur&eth; Salon</p>
+        <p>A calm, welcoming space for hair, nails and skincare in Johannesburg.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="services.html">Services &amp; Pricing</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="enquiry.html">Service Enquiry</a></li>
+          <li><a href="contact.html">Contact / Book Now</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>4 Blossom Street, Rosebank</p>
+        <p>hello@fegurdsalon.co.za</p>
+        <p>(011) 555 0198</p>
+      </div>
+    </div>
+    <div class="site-footer__bottom">&copy; <span id="year"></span> Fegur&eth; Salon. All rights reserved.</div>
+  </footer>
+
+  <script src="C:\Users\Administrator\Downloads\Feguro-Salon-Part3-Code-Only\fegurd-salon\css\js\main.js"></script>
+</body>
+</html>
