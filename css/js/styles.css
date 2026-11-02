@@ -1,0 +1,3 @@
+/* Compatibility entry point for the existing page references (css\\js\\styles.css).
+   Keep the canonical stylesheet in css/styles.css. */
+@import url("../styles.css");
